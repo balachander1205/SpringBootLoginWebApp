@@ -1,0 +1,125 @@
+.Dlogo {
+	position: absolute;
+	left: 10px;
+	top: 0;
+	z-index: 9999;
+}
+.sidebar {
+	padding: 50px 0 0 0;
+}
+.sidebar-toggle {
+	background: url(../images/menuIcon_sprite.png) no-repeat 3px -236px!important;
+	margin: 10px;
+}
+.sidebar-menu li a {
+	font-size: 16px;
+	height: 40px;
+}
+.sidebar-menu li a i {
+	float: left;
+	height: 13px;
+	width: 35px;
+	margin-top: 5px;
+}
+.sidebar-menu li a i.Dash {
+	background: url(../images/menuIcon_sprite.png) no-repeat 0 0;
+}
+.sidebar-menu li a i.Helpdesk {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -17px;
+	height: 17px;
+	margin-top: 5px;
+}
+.sidebar-menu li a i.Event {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -34px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Trainings {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -54px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Recognizing {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -75px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.People {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -97px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Product {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -119px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Announcemnets {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -145px;
+	height: 25px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Surveys {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -171px;
+	height: 25px;
+	margin-top: 3px;
+	 
+}
+.sidebar-menu li a i.Bookmarks {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -194px;
+	height: 25px;
+	margin-top: 0px;
+	 
+}
+
+.sidebar-menu li a i.Contact {
+	background: rgba(0, 0, 0, 0) url("../images/menuIcon_sprite.png") no-repeat scroll 0 -219px;
+	height: 20px;
+	margin-top: 3px;
+	 
+}
+.bcontaner{
+	width:100%;
+	border-top:2px solid #ccc;
+	padding:10px 0 0 0;
+	float:left;
+	margin:10px 0 0 0;
+}
+.profi_pic{
+	border:1px solid #ccc;
+	padding:3px;
+	margin:0 10px 10px 0;
+}
+.charm_hedding{
+	font-size:22px;
+	 
+	color:#006cb4;
+}
+.product_row{
+	 
+	overflow:hidden;
+	width:100%;
+	border-top:1px solid #ccc;
+	padding:10px 0 0 0;
+	margin:0 0 5px 0 ;
+}
+.product_row:first-child{
+	border:none;
+}
+.wid100{
+	width:100%;
+	float:left;
+	overflow: auto;
+	padding: 2%;
+}
+ @media (max-width:767px) {
+.Dlogo {
+	left: 38%;
+}
+}
